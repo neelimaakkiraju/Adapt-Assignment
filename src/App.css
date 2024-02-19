@@ -1,0 +1,81 @@
+/* App.css */
+
+.App {
+    display: flex;
+  }
+  
+  .side-nav-bar {
+    width: 200px; /* Adjust width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #333; /* Sidebar background color */
+    color: #fff; /* Text color */
+  }
+  
+  .side-nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-nav-bar li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .side-nav-bar li:hover {
+    background-color: #555; /* Hover background color */
+  }
+  
+  .side-nav-bar .active {
+    background-color: #666; /* Active option background color */
+  }
+  
+  .content {
+    flex: 1; /* Take remaining space */
+    padding: 20px; /* Add padding as needed */
+  }
+  .sidebar-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .sidebar-option i {
+    margin-right: 10px; /* Adjust the spacing between the icon and the text */
+  }
+  
+  .sidebar-option.active {
+    background-color: #f0f0f0; /* Change background color when option is active */
+  }
+  
+  /* Additional styles for hover effect */
+  .sidebar-option:hover {
+    cursor: pointer;
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  .top-navbar {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: start; /* Center items vertically */
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+    padding: 10px 20px; /* Example padding */
+  }
+  
+  .left-logo {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .left-logo img {
+    height: 40px; /* Example height */
+  }
+  
+  .right-icons {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .top-bar {
+    display: flex;
+    flex-direction: row;
+  }
